@@ -35,6 +35,7 @@ app.post('/usuarios', async (req, res) => {
             userId: usuario.id,
             produto: usuario.produto,
             quantidade: usuario.quantidade
+            teste
         })*/
 
         res.status(200).send({ message: 'Produto Cadastrado', usuario: user })
